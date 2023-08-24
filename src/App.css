@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+a{
+  text-decoration: none;
+  color: gold;
+}
+
+.row{
+  background-color: #16171a;
+  cursor: "pointer";
+  font-family: "Montserrat";
+  padding: 0 20px;
+}
+
+.row:hover{
+  background-color: #131111;
+  cursor:pointer;
+}
+
+.table_style{
+  padding: 0 85px;
+}
+
+.pagination .MuiPaginationItem-root {
+  color: gold;
+}
